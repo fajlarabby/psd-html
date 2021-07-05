@@ -1,0 +1,85 @@
+/*font-family: 'Playfair Display', serif;*/
+/*font-family: 'Ubuntu', sans-serif;*/
+/*h1{
+	font-family: 'Playfair Display', serif;
+	font-weight: 0 ;
+	/*color: red;*/
+}
+/*@font-face{
+	font-family:Poppins-Regular ;
+	src: url(../fonts/Poppins/Poppins-Regular.ttf);
+}
+@font-face{
+	font-family:Poppins-Thin ;
+	src: url(../fonts/Poppins/Poppins-Thin.ttf);
+}
+h2{
+	font-family: Poppins-Thin;
+	font-weight: 100;
+
+}*/
+/*common start*/
+body{
+	margin: 0;
+	padding: 0;
+}
+/*common end*/
+/*header start*/
+header{
+padding: 10px 0;
+
+}
+.container{
+	overflow: hidden;
+	margin: 0 auto;
+    width: 90%;
+    /*border: 1px solid;*/
+
+
+}
+.logo{
+	margin-top: 14px;
+	width: 10%;
+	/*border: 1px solid green;*/
+	float: left;
+}
+.logo a{}
+.logo a img{width: 100%;}
+.menu{
+	width: 70%;
+	/*border: 1px solid blue;*/
+	float: right;
+}
+.menu ul{
+	list-style: none;
+	float: right;
+}
+.menu ul li{
+	float: left;
+}
+.menu ul li a{
+	margin: 0 60px;
+	display: inline-block;
+	text-decoration: none;
+	text-transform: uppercase;
+
+	font-family: 'Playfair Display', serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #626262;
+	transition: 0.3s;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+.menu ul li a:hover{
+	color: red;
+}
+/*header end*/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
